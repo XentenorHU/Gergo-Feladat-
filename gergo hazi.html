@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+<head>
+
+    <script>
+
+
+
+        function hide_click(id, button) {
+
+                console.log(id, button)
+
+                var div = document.getElementById(id)
+
+
+
+                div.hidden = !div.hidden
+
+                if (button != undefined) {
+
+                    if (div.hidden) {
+
+                        button.innerText = "Megjelenítés"
+
+                    }
+
+                    else {
+
+                        button.innerText = "Rejtés"
+
+                    }
+
+                }
+
+            }
+
+
+
+    </script>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>God Of War</title>
+
+    <link rel="Stylesheet" href="style.css">
+
+</head>
+
+<body bgcolor="white">
+
+<div id="tartalom">
+
+    <table id="tabla1">
+
+        <tr><div id="infok1">
+
+            <td><h1>God of War</h1></td>
+
+        </tr>
+
+        <tr>
+
+            <td>
+
+                <img src="god of war.jpg" id="God">
+
+            </td>
+
+        </div></tr>
+
+        <tr><div id="infok2">
+
+            <td><b>Megjelenés: 2018. április 20.</b></td>
+
+        </tr>
+
+        <tr>
+
+            <td><b>Műfaja: Akció-kalandjáték, Szerepjáték, Verekedős játék, Hack and slash, Adventure</b></td>
+
+        </tr>
+
+        <tr>
+
+            <td><b>Fejlesztő: SIE Santa Monica Studio, Jetpack Interactive</b></td>
+
+        </tr>
+
+        <tr>
+
+            <td><b>Kiadó:  Sony Interactive Entertainment, SIE Worldwide Studios, Sony Interactive Entertainment Europe</b></td>
+
+        </div></tr>
+
+    </table>
+
+<div id="gepigeny">
+
+    <h2>God of war Gépigénye</h1><button onclick="hide_click('specs_div', this)">Rejtés</button>
+
+        <div id="specs_div">
+
+    <table id="mingep" style="float: left;">
+
+        <caption>Minimum Gepigeny</caption>
+
+        <tr>
+
+            <td>GPU:</td>
+
+            <td>NVIDIA GTX 960 (4 GB) or AMD R9 290X (4 GB)</td>
+
+        </tr>
+
+        <tr>
+
+            <td>CPU:</td>
+
+            <td>Intel i5-2500k or AMD Ryzen 3 1200</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Ram:</td>
+
+            <td>8 GB RAM</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Direct X:</td>
+
+            <td>Version 11</td>
+
+        </tr>
+
+        <tr>
+
+            <td>OS</td>
+
+            <td>Windows 10 64-bit</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Storage:</td>
+
+            <td>70GB</td>
+
+        </tr>
+
+    </table>
+
+    <table id="ajgep">
+
+        <caption>Ajanlott Gepigeny</caption>
+
+        <tr>
+
+            <td>GPU:</td>
+
+            <td>
+                NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB)</td>
+
+        </tr>
+
+        <tr>
+
+            <td>CPU:</td>
+
+            <td>Intel i5-6600k or AMD Ryzen 5 2400 G</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Ram:</td>
+
+            <td>8 GB RAM
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Direct X:</td>
+
+            <td>Version 11</td>
+
+        </tr>
+
+        <tr>
+
+            <td>OS:</td>
+
+            <td>Windows 10 64-bit</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Storage:</td>
+
+            <td>70GB</td>
+
+        </tr>
+
+    </table>
+
+</div>
+
+    <h2>A Jatek Története</h2>
+
+    <span id="jatektort">Kratos a görög istenek mészárosa, a háborúk istene északra költözik, mi után zeuszt és a többi istenen bosszút állt. Rátalál a szerelemre igy gyerelük születik a feleségével, Atreus. A történet a kb 10 évvel Atreus születése után veszi fel a vonalat. Éppen Atreus anyját gyászolják hiszen rejtéjes módon elhunyt, és a hamvait egy ilyen alkalomhoz illő helyen akarját elszórni. Amint elindulnának egy ismeretlen idegen állit be a házuk elé, a két hős sem ismeri őt. A történet során rengeteg titokra fény kerül.</span><br>
+
+    <h2>A Játek Lényege és célja</h2>
+
+    <span id="lenyeg">Ismerd meg a játék történetét és karaktereit, egy hosszú úton keresztül, a harcok közben megszerzett xp-t és nyersanyagokat helyesen elhasználása. Az alaposan kidolgozott karakterek céljainak megértése. Kratos és Atreus párosának kibontakozásának átélése.</span>
+
+    <h2>Fontos tudnivalók</h2>
+
+    <span id="tudnivalo">Ajánlott ismerni az előző God of war játékok cselekményeit, illetve a játék kimondottan nehéz és hosszú. A játék mára PC-n is játszható illetve PS4 és PS5 konzolokon is elérhető! A folytatása a God Of War Ragnörök jelenleg csak konzolokon játszható!</span>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
